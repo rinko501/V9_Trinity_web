@@ -1,0 +1,58 @@
+{
+  "name": "trinity-v9",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.3.1",
+    "babel-loader": "^8.0.4",
+    "bootstrap": "^4.1.3",
+    "css-loader": "^1.0.1",
+    "exports-loader": "^0.7.0",
+    "expose-loader": "^0.7.5",
+    "file-loader": "^2.0.0",
+    "import-loader": "^1.0.1",
+    "imports-loader": "^0.8.0",
+    "jquery": "^3.3.1",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.10.0",
+    "postcss-loader": "^3.0.0",
+    "precss": "^3.1.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "reactstrap": "^6.5.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "3d-react-carousal": "^2.0.1",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "lodash": "^4.17.11",
+    "nouislider": "^12.1.0",
+    "react-color": "^2.14.1",
+    "react-native": "^0.57.4",
+    "reactcss": "^1.2.3",
+    "three": "^0.98.0",
+    "whs": "^2.1.9"
+  }
+}
