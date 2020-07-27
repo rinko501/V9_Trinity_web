@@ -1,0 +1,53 @@
+           
+                          Fake News and Propaganda News Detection
+                          
+
+                                       March 2020
+                                
+                                         Lin Liu
+
+                               University of Duisburg Essen
+                            lin.liu@stud.uni-duisburg-essen.de
+                             
+  
+
+CONTENTS
+1. Introduction
+2. Dataset
+3. Dictionary
+4. Machine Learning
+5. NELA
+
+
+=======================
+1. Introduction
+
+This project is a project used for fake news and propaganda news detection. We choose the dictionary as our features. Meanwhile, we also do news language analysis.
+
+=======================
+2. Dataset
+
+In the folder "dataset_a" is the 5 fake news datasets we collected. These datasets are used for building our feature dictionaries and also for the fake news classification.
+
+
+=======================
+3. Dictionary
+
+In the folder "other_dict" is the dictionaries we use for the second comparison. And there are 3 folders, and they are the propaganda datasets for generating the "Propaganda Lexicon" and propaganda news classification.
+
+
+
+=======================
+3. Machine Learning
+
+The machine learning part is in the "true_fake_analysis" folder. We did the classifications with different features in this part. In this folder, we build our lexicons, and we put them in the "result_fake_true(_xxx)" folders. Now we mainly use the version of "result_fake_true_after_reduce_stopwords". And the other ".ipynb" files are our experiment codes. We already label each one a specific name about what it is.
+
+
+
+=======================
+5. NELA
+
+In this folder, we attach the code of the NELA project(https://github.com/BenjaminDHorne/The-NELA-Toolkit). To generate the NELA features for our data, we need to change the path in "runfile.py" and run the file. 
+
+
+
