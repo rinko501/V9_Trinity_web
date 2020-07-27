@@ -1,0 +1,27 @@
+.react-3d-carousel {
+    padding: 0 15px;
+    .slider-container {
+        .slider-content {
+            width: 100%!important;
+
+            .slider-single {
+                &.active {
+                    .carousel-caption {
+                        display: block;
+                    }
+                }
+
+                .carousel-caption {
+                    display: none;
+                }
+
+                .slider-right,
+                .slider-left {
+                    div {
+                        border-width: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.toolbar {
+    text-align: center;
+    margin-top: 16px;
+
+    .actions {
+        margin: 30px 0 16px 0;
+    }
+    .main {
+        width: 100%;
+        .btn-group-vertical {
+            width: 100%;
+        }
+        button {
+            border: 0px;
+            background-color: transparent;
+            margin: 30px auto;
+            border-radius: 0;
+
+            &:hover {
+                background-color: #4e555b;
+            }
+        }
+        
+    }
+}
+
+.tooltip .tooltip-inner {
+    background-color: rgba(96, 125, 139, 0.71);
+}
+
+
+.tooltip .arrow::before {
+    border-color: rgba(96, 125, 139, 0.71);
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
