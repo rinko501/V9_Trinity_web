@@ -50,7 +50,7 @@
     "lodash": "^4.17.11",
     "nouislider": "^12.1.0",
     "react-color": "^2.14.1",
-    "react-native": "^0.57.4",
+    "react-native": "^0.70.4",
     "reactcss": "^1.2.3",
     "three": "^0.98.0",
     "whs": "^2.1.9"
